@@ -1,0 +1,47 @@
+1.What is git??
+Sol - Git is a very popular version control system that helps developers track changes in their code, collaborate with others and manage different versions of a project 
+2. What do u understand by the term version control system
+Sol - A version control system (VCS) is a tool that helps track and manage changes to files, typically used in software development. It allows multiple users to collaborate on a project, keeping track of modifications, additions, and deletions to files over time. With a VCS, you can maintain a history of changes, revert to earlier versions, and merge different contributions from team members.
+3. what  is GitHub? 
+Sol- GitHub is a web-based platform that provides hosting for software development and version control using Git. It’s primarily used for version control and collaboration, enabling multiple developers to work on projects simultaneously, while keeping track of all changes made to the codebase.
+4 . Mention some popular git hosting service? 
+Sol - 
+GitHub-
+One of the most widely used Git hosting platforms.
+Offers features like pull requests, issue tracking, and GitHub Actions for CI/CD.
+Popular for open-source projects and personal portfolios.
+Offers both public (free) and private (paid) repositories.
+GitLab
+A complete DevOps platform that supports Git repositories, CI/CD, project management, and monitoring.
+Provides both cloud-hosted (GitLab.com) and self-hosted (GitLab CE/EE) options.
+Great for teams and enterprises looking for an all-in-one platform.
+4.Diffrent type of veion control systems 
+Sol- 2. 
+Centralized Version Control System (CVCS)
+Description: In a centralized version control system, all files and their version histories are stored in a central repository, and developers check out copies of these files from the central server to work on them.
+How it works: Developers work on their own local copies of the files, but the central server is the authoritative source. Changes made by developers are uploaded to the server, and others can see the updates once they check out or pull from the central repository.
+Example: Subversion (SVN), CVS (Concurrent Versions System), and Perforce.
+Pros:
+Centralized and easier to manage for teams because there’s a single source of truth.
+Easier to implement permissions and access control.
+Cons:
+If the central repository goes down, no one can access or commit changes.
+More challenging when developers are working offline or in remote locations.
+3. Distributed Version Control System (DVCS)
+Description: A distributed version control system is more advanced and flexible. In this system, each developer has a complete copy of the entire repository, including its history, on their own machine. Changes can be committed to the local repository and later pushed to a central repository or shared with others.
+How it works: Developers work on their own copies (clones) of the repository and make changes locally. Changes can be pushed to a shared central repository, or developers can collaborate directly with each other by pushing and pulling changes between their repositories.
+Example: Git, Mercurial, Bazaar.
+Pros:
+Developers can work offline and commit changes locally, which can later be synchronized.
+Very flexible and allows for easier branching and merging, making collaboration and feature development more manageable.
+It’s harder to lose work because each developer has a complete history of the project.
+Cons:
+The learning curve is steeper compared to centralized systems.
+Managing merge conflicts can be more complex in some cases.
+6. What benefits can come with git? 
+Sol-
+ Distributed Nature
+Work Offline: Each developer has a full copy of the entire repository, including its history. This means you can work offline, commit changes, and later sync with others once you're back online.
+Redundancy: Since every developer has their own full repository, there's no single point of failure. If a central server is unavailable, work can continue as usual.
+Branching and Merging
+Easy Branching: Git makes it incredibly easy to create branches. Branches
